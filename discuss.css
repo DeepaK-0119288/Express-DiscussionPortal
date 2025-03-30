@@ -1,0 +1,360 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .nav-bar {
+    height: 75px;
+    width: 100%;
+    background-color: #008080;
+    color: white;  
+    font-size: 25px;
+  }      
+  #u-name {
+    margin-left: 100px;
+    margin-right: 450px;
+    font-size: 35px;
+    color: black;
+    transition: margin-left 0.10s ease-in-out, margin-right 0.10s ease-in-out;
+  }
+  
+  .outer-div {
+    display: flex;
+  }
+  
+  /* Start*/
+  .left-div {
+    height: 583px;
+    width: 40%;
+    background-color: #008080;  
+    /* overflow-y: auto; */
+  }
+
+  .btn-div {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+  }
+  .btn {
+    height: 30px;
+    width: 160px;
+    margin-left: 40px;  
+    margin-top: 17px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #b1 {
+    height: 34px;
+    width: 163px;
+  }
+  #serach {
+    height: 36px;
+    width: 160px;
+    padding-left: 10px;
+  }
+
+  #slct {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 18px;
+    margin-left: 30px;
+  }
+  /* End  */
+  
+  /* Start */
+  .right-div {
+    height: 580px;
+    width: 60%;
+    border: 4px solid #008080;
+    border-top: none;
+    background-color: white;
+  }
+  
+  .Div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  #wlcm {
+    margin-top: 45px;
+  }
+  #r_para1 {
+    margin-top: 20px;
+  }
+  #input1 {
+    margin-top: 30px;
+    height: 40px;
+    width: 240px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 2px solid #008080;
+  }
+  #txtArea1 {
+    margin-top: 30px;
+    height: 280px;
+    width: 720px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 2px solid #008080;
+  }
+  #submit1 {
+    margin-top: 15px;
+    height: 35px;
+    width: 120px;
+    margin-left: 600px;
+    font-size: 18px;
+    border: 3px solid #008080;
+  }
+  /* End  */
+  
+  /* start  */
+  .l_div1 {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+  }
+  .l_div1 {
+    transition: transform 0.3s ease;
+  }
+  .l_div1:hover {
+    background-color: #21a7a7;
+    transform: scale(1.02);
+    border-radius: 10px;
+  }
+  .d1 {
+    width: 80%;
+  }
+  .d2 {
+    width: 30%;
+  }
+  #head1 {
+    text-align: center;
+    font-size: 35px;
+    margin-left: 30px;
+  }
+  #para1 {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  #star-btn {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 110px;
+  }
+
+  /* End  */
+  
+  /* Start  */
+  .r_newDiv {
+    margin-left: 50px;
+  }
+  .div1 {
+    margin-top: 5px;
+  }
+  .div2 {
+    background-color: #008080;
+    height: 80px;
+    width: 95%;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .div2,
+  .div4 {
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .div2:hover,
+  .div4:hover {
+    background-color: #00b3b3;
+    transform: scale(1.01);
+  }
+  .para1 {
+    padding-top: 6px;
+    padding-left: 20px;
+  }
+  #resolve1 {
+    margin-top: 3px;
+    height: 35px;
+    width: 120px;
+    margin-left: 600px;
+    font-size: 18px;
+    border: 2px solid #008080;
+  }
+  /* Continue  */
+  .div4 {
+    background-color: #008080;
+    height: 110px;
+    width: 95%;
+    font-weight: 600;
+  }
+  .div5 {
+    height: 100px;
+    width: 97%;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    border-radius: 15px;
+  }
+  .div6 {
+    width: 80%;
+  }
+  .para2 {
+    padding-left: 15px;
+    font-size: 28px;
+    font-family: cursive;
+  }
+  .para3 {
+    padding-left: 15px;
+    font-size: 30px;
+  }
+  #btn-span {
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  .like-btn {
+    background-color: #008080;
+    color: White;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .dislike-btn {
+    margin-left: 6px;
+    background-color: #008080;
+    color: White;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .like-btn,
+  .dislike-btn {
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .like-btn:hover,
+  .dislike-btn:hover {
+    background-color: #00b3b3;
+    transform: scale(1.05);
+  }
+  /* Continue  */
+  .div6 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  #input2 {
+    margin-top: 5px;
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 2px solid #008080;
+  }
+  #txtArea2 {
+    margin-top: 10px;
+    height: 150px;
+    width: 720px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 2px solid #008080;
+  }
+  #submit2 {
+    margin-top: 8px;
+    height: 35px;
+    width: 120px;
+    margin-left: 600px;
+    font-size: 18px;
+    border: 2px solid #008080;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  #submit1,
+  #submit2,
+  #resolve1 {
+    font-size: 18px;
+    border: 3px solid #008080;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  #submit1:hover,
+  #submit2:hover,
+  #resolve1:hover {
+    background-color: #008080;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 15px rgba(0, 128, 128, 0.3);
+    font-weight: bolder;
+  }
+  .btn {
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #008080;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 15px rgba(0, 128, 128, 0.3);
+  }
+  
+  #input1:hover,
+  #input1:focus,
+  #txtArea1:hover,
+  #txtArea1:focus,
+  #search:hover,
+  #input2:hover,
+  #input2:focus,
+  #txtArea2:hover,
+  #txtArea2:focus {
+    /* border-radius: 12px; */
+    background-color: #21a7a7;
+    box-shadow: 0px 0px 20px #21a7a7;
+    color: aliceblue;
+  }
+  #input1,
+  #txtArea1,
+  #input2,
+  #txtArea2 {
+    border-radius: 8px;
+    transition: border-color 0.3s ease, background-color 0.3s ease,
+      transform 0.2s ease;
+  }
+  #input1:focus,
+  #txtArea1:focus,
+  #input2:focus,
+  #txtArea2:focus {
+    border-color: #00b3b3;
+    background-color: #e6ffff;
+    transform: scale(1.02);
+    color: black;
+  }
+  .time-display {
+    font-size: 15px;
+    color: black;
+    margin-left: 85px;
+    margin-top: 8px;
+    text-align: left;
+  }
+
+  #n-para {
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+
+    
